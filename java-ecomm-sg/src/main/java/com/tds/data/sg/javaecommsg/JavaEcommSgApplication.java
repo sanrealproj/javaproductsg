@@ -9,6 +9,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 @EnableDiscoveryClient
 @SpringBootApplication
 @EnableAutoConfiguration(exclude={DataSourceAutoConfiguration.class}) 
+
 public class JavaEcommSgApplication {
 
 	public static void main(String[] args) {
