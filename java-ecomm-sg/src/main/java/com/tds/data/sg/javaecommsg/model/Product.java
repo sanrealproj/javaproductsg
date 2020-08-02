@@ -9,35 +9,89 @@ public class Product {
 
 	@Id
     private int id;
-    private String name;
-    private String designation;
+    private String company;
+    private String description;
+    private boolean featured;
+    private String image;
+    private String price;
+    private String sid;
+    private String title;
+    
  
     public Product() { }
- 
-    public int getId() {
-        return id;
-    }
-    public void setId(int id) {
-        this.id = id;
-    }
-    public String getName() {
-        return name;
-    }
-    public void setName(String name) {
-        this.name = name;
-    }
-    public String getDesignation() {
-        return designation;
-    }
-    public void setDesignation(String designation) {
-        this.designation = designation;
-    }
- 
-    @Override
-    public String toString() {
-        return "Employee [id=" + id + ", name=" + name + ", designation=" + designation + "]";
-    }
+
+
 	
+	public String getCompany() {
+		return company;
+	}
+
+
+	public void setCompany(String company) {
+		this.company = company;
+	}
+
+
+	public String getDescription() {
+		return description;
+	}
+
+
+	public void setDescription(String description) {
+		this.description = description;
+	}
+
+
+	public boolean isFeatured() {
+		return featured;
+	}
+
+
+	public void setFeatured(boolean featured) {
+		this.featured = featured;
+	}
+
+
+	public String getImage() {
+		return image;
+	}
+
+
+	public void setImage(String image) {
+		this.image = image;
+	}
+
+
+	public String getPrice() {
+		return price;
+	}
+
+
+	public void setPrice(String price) {
+		this.price = price;
+	}
+
+
+	public String getSid() {
+		return sid;
+	}
+
+
+	public void setSid(String sid) {
+		this.sid = sid;
+	}
+
+
+	public String getTitle() {
+		return title;
+	}
+
+
+	public void setTitle(String title) {
+		this.title = title;
+	}
+ 
+   
 	
 	
 
